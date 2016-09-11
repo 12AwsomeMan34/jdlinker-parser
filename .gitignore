@@ -1,0 +1,19 @@
+# General Intellij files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Non-source python files
+*.py[cod]
+
+# Distribution folders
+dist/
+build/
+sphinx_JDLinker.egg-info/
+
+# Any jars it's ran with
+*.jar
+
+# The javadoc dump
+javadoc_dump.txt
