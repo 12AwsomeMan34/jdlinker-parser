@@ -227,9 +227,9 @@ for javadoc_info in javadoc_dump:
                     could_not_find(last_object + '#' + after_hash, javadoc_page, javadoc_line)
     else:
         if is_internal:
-            print('Could not find: ' + package + second_to_last + '.java')
+            could_not_find(package + second_to_last + '.java', javadoc_page, javadoc_line)
         else:
-            print('Could not find jar for: ' + package + last_object + '.java')
+            could_not_find(package + last_object + '.java', javadoc_page, javadoc_line)
 
 # Now close any open jars.
 for jar in jars:
